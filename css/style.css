@@ -43,6 +43,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .container {
@@ -477,7 +478,7 @@ input[type="text"]:focus {
   background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(2, 61, 138, 0.6)),
     url("../img/header-bg-img.jpg");
   height: max(100vh, 60rem);
-  width: max(100vw, 60rem);
+  width: max(100vw);
   background-position: center;
   background-size: cover;
   color: #fff;
