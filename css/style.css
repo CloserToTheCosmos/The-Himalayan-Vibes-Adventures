@@ -1,8 +1,8 @@
 :root {
-  --color-blue: #023c88;
-  --color-blue-lighter-1: #00b3d6;
-  --color-blue-lighter-2: #49cae4;
-  --color-gray-light: #f9fafb;
+  --color-blue: #08428db2;
+  --color-blue-lighter-1: #42e433;
+  --color-blue-lighter-2: #38d48b;
+  --color-gray-light: #d2d6da00;
   --color-gray-dark: #e9ecef;
   --section-padding: clamp(4rem, 10vw, 12rem) 0rem;
   --two-col-layout: 2;
@@ -40,7 +40,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -340,7 +340,7 @@ body {
   border-bottom: 1px solid;
 }
 .t-card__description {
-  text-align: center;
+  text-align: start;
 }
 .t-card__items {
   display: flex;
@@ -382,7 +382,7 @@ body {
   background-color: transparent;
 }
 
-input[type='text'] {
+input[type="text"] {
   padding: 1.3rem 2.5rem;
   border-radius: 4px;
   font-family: inherit;
@@ -392,7 +392,7 @@ input[type='text'] {
   border: none;
   width: 100%;
 }
-input[type='text']:focus {
+input[type="text"]:focus {
   outline: none;
 }
 
@@ -411,7 +411,7 @@ input[type='text']:focus {
   padding: 1rem;
   pointer-events: none;
 }
-.custom-date input[type='date'] {
+.custom-date input[type="date"] {
   padding: 0.8rem;
   border-radius: 4px;
   font-family: inherit;
@@ -452,7 +452,7 @@ input[type='text']:focus {
   pointer-events: none;
 }
 .custom-select .arrow::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -475,7 +475,7 @@ input[type='text']:focus {
 
 .section-hero {
   background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(2, 61, 138, 0.6)),
-    url('../img/header-bg-img.jpg');
+    url("../img/Header-bg-img.jpg");
   height: max(100vh, 60rem);
   background-position: center;
   background-size: cover;
@@ -528,14 +528,14 @@ input[type='text']:focus {
 
 .section-offer {
   padding: var(--section-padding);
-  background: url('../img/offer-img.jpg') fixed no-repeat center;
+  background: url("../img/Spiti.jpg") fixed no-repeat center;
   background-size: cover;
   position: relative;
   color: #fff;
   z-index: 1;
 }
 .section-offer::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
