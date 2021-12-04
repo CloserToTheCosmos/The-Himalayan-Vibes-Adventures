@@ -475,7 +475,7 @@ input[type="text"]:focus {
 
 .section-hero {
   background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(2, 61, 138, 0.6)),
-    url("../img/Header-bg-img.jpg");
+    url("../img/header-bg-img.jpg");
   height: max(100vh, 60rem);
   background-position: center;
   background-size: cover;
